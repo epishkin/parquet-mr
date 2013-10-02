@@ -39,11 +39,17 @@
   </developers>
 
   <distributionManagement>
+      <snapshotRepository>
+          <id>nexus.snapshots</id>
+          <url>http://nexus.tapad.com:8080/nexus/content/repositories/snapshots/</url>
+      </snapshotRepository>
+<!--
     <snapshotRepository>
       <id>sonatype-nexus-snapshots</id>
       <name>Sonatype OSS</name>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
+-->
     <repository>
       <id>sonatype-nexus-staging</id>
       <name>Nexus Release Repository</name>
